@@ -1,0 +1,15 @@
+{
+  "name": "reveal_env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "reveal-md -w slides.md",
+    "export": "reveal-md slides.md --print dist/slides.pdf"
+  },
+  "dependencies": {
+    "reveal-md": "^2.3.0",
+    "textlint": "^11.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.0"
+  }
+}
